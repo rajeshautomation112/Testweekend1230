@@ -5,9 +5,7 @@
       <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
         <classes>
             <class name="testng_demo.Login_with_excel_data">
-                <methods>
-                    <include name="Enter_login_credentials"/>
-                </methods>
+
             </class>
         </classes>
     </test>
