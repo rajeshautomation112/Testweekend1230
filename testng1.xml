@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Administrator/IdeaProjects/Weekendmaven1230/src/test/java/testng_demo/Login_demo.java">
+        <classes>
+            <class name="testng_demo.Login_demo">
+
+
+            </class>
+        </classes>
+    </test>
+</suite>

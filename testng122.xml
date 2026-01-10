@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="false">
+
+
+
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+
+
+    <test name="Test1">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="functional"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng_demo.Login_Test_with_Multiple_set_of_data"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name="browser" value="edge"/>
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="functional"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng_demo.Login_Test_with_Multiple_set_of_data"/>
+        </classes>
+    </test>
+</suite>
